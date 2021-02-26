@@ -1,1 +1,8 @@
-<h3>app de dados</h3>
+<div class="jumbotron text-center">
+
+    <button (click)="dados()" class="btn btn-success btn-lg">tirar dados</button>
+    <br>
+    <img [src]="dadoizq"  class="img">
+    <img [src]="dadoder"  class="img">
+    <h1 *ngIf="numero1 === numero2" ><span class="badge badge-success">ganaste</span></h1>
+</div>
